@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+background-color:#CC3333;
+
+}
+.main{
+width:999px;
+background-color:#CC6600;
+margin:0px auto auto auto;
+padding:3px;
+}
+.footer{
+text-align:center;
+font-size:24px;
+color:#000000;
+margin:20px;
+padding:5px;
+}
+.content{
+background-color:#FF6666;
+border:2px solid silver;
+width:95%;
+padding:3px;
+margin:5px;
+}
+
+.header{
+width:99.9%;
+height:200px;
+background-color:#FF9933;
+}
+
+.header .logo{
+height:200px;
+width:200px;
+float:left;
+}
+
+.header .name{
+height:120px;
+width:300px;
+padding-top:50px;
+float:left;
+color:#993300;
+text-align:center;
+font-family:Broadway;
+font-size:24px;
+}
+
+.header .login{
+float:right;
+width:450px;
+margin-top:15px;
+}
+
+.login .row{
+width:99%;
+min-height:20px;
+margin-bottom:10px;
+margin-top:0px !important;
+
+}
+.row{
+width:99.9%;
+min-height:20px;
+}
+
+.cols20per{
+width:20%;
+float:left;
+}
+
+.cols30per{
+width:30%;
+float:left;
+}
+
+.cols40per{
+width:40%;
+float:left;
+}
+
+.cols60per{
+width:60%;
+float:left;
+}
+.cols80per{
+width:80%;
+float:left;
+}
+
+.cols50per{
+width::50%;
+float:left;
+}
+
+.cols75per{
+width:75%;
+float:left;
+}
+
+.cols50per{
+width::50%;
+float:left;
+}
+
+
+.menu{
+background-color:#009900;
+height:40px;
+top:-50px;
+width:99%;
+color:#CCCCCC;
+display:block;
+transition: width 2s;
+}
+.menu a{
+float:right;
+display:block;
+text-align:center;
+padding:15px;
+text-decoration:underline;
+text-transform:capitalize;
+color:#000033;
+}
+.menu a:hover{
+width:500px;
+background-color:#99CCFF;
+color:#999999;
+}
+.cname1{
+float:left;
+text-transform:uppercase;
+margin-top:10px;
+margin-bottom:5px;
+font-size:18px;
+width:200px;
+}
+input[type="text"],input[type="password"],input[type="email"],input[type="number"]input[type="radio"],input[type="file"]{
+border:2px solid black;
+width:180px;
+padding:5px;
+border-radius:5px
+}
+input[type="submit"]{
+letter-spacing:2px;
+width:90px;
+height:30px;
+border:none;
+}
+.col{
+height:99%;
+min-width:30px;
+margin-top:10px;
+margin-bottom:5px;
+}
+
+.fileshow{
+border:1px solid black;
+}
+
+.fileshow:hover{
+border:1px solid green;
+}
+
+.fileshow img{
+width:100px;
+height:100px;
+}
+
+.fileshow .name{
+text-align:center;
+padding:15px;
+}
+
+.resp{
+
+padding:6px;
+float:left;
+width:15%;
+}
